@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sylvae-sophrologie.com/sitemap.xml
+Sitemap: https://sylvae-sophrologie.fr/sitemap.xml
