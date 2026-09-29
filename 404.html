@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Sylvaë Sophrologie</title>
+<script>
+  // Anciennes pages du site (avant le passage en one page) → section correspondante
+  var sections = {
+    "qui-suis-je": "profil",
+    "consultations": "tarifs",
+    "tarifs": "tarifs",
+    "quest-ce-que-la-sophrologie": "sophrologie",
+    "sophrologie": "sophrologie",
+    "localisation": "localisation",
+    "contact": "contact"
+  };
+  var slug = location.pathname.toLowerCase().split("/").filter(Boolean)[0] || "";
+  location.replace("/" + (sections[slug] ? "#" + sections[slug] : ""));
+</script>
+<meta http-equiv="refresh" content="0; url=/">
+</head>
+<body>
+<p>Cette page a été déplacée. <a href="/">Accéder au site Sylvaë Sophrologie</a>.</p>
+</body>
+</html>
